@@ -25,4 +25,8 @@ class HomeController extends Controller
     {
         return view('Home.index');
     }
+    public function Usuarios()
+    {
+        return view('Usuario.Lista');
+    }
 }
