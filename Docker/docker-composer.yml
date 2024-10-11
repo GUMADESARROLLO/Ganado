@@ -8,8 +8,8 @@ services:
     volumes:
       - "./:/app/ganado"
       - "./default.tmpl:/kool/default.tmpl"
-    # ports:
-    #   - "84:80"
+    ports:
+      - "8080:80"
     environment:
       - APP_NAME=ganado
       - PHP_FPM_LISTEN=/run/php-fpm.sock
