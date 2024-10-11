@@ -6,7 +6,7 @@ services:
     image: kooldev/php:7.4-nginx-sqlsrv-prod
     restart: always
     volumes:
-      - "./:/app/ganado"
+      - "../:/app/ganado"
       - "./Docker/default.tmpl:/kool/default.tmpl"
     ports:
       - "88:80"
