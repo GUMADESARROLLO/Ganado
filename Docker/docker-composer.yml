@@ -2,8 +2,8 @@ version: "3.7"
 services:
   app_ganado:
     container_name: cn_app_ganado
-    #image: kooldev/php:7.4-nginx-sqlsrv
-    image: kooldev/php:7.4-nginx-sqlsrv-prod
+    image: kooldev/php:7.4-nginx-sqlsrv
+    #image: kooldev/php:7.4-nginx-sqlsrv-prod
     restart: always
     volumes:
       - "../:/app/ganado"
