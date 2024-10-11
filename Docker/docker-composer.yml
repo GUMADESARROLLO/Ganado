@@ -9,7 +9,7 @@ services:
       - "./:/app/ganado"
       - "./default.tmpl:/kool/default.tmpl"
     ports:
-      - "8080:80"
+      - "88:80"
     environment:
       - APP_NAME=ganado
       - PHP_FPM_LISTEN=/run/php-fpm.sock
