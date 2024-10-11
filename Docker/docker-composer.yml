@@ -7,7 +7,7 @@ services:
     restart: always
     volumes:
       - "./:/app/ganado"
-      - "./default.tmpl:/kool/default.tmpl"
+      - "./Docker/default.tmpl:/kool/default.tmpl"
     ports:
       - "88:80"
     environment:
