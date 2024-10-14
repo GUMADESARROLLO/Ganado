@@ -28,6 +28,11 @@
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="{{asset('files/assets/css/style.css')}}">  
     <link rel="stylesheet" type="text/css" href="{{asset('files/assets/css/jquery.mCustomScrollbar.css')}}">
+    
+    <!-- Select 2 css -->
+    <link rel="stylesheet" href="{{asset('files/bower_components/select2/css/select2.min.css')}}">
+
+    
 </head>
 
 <body>
@@ -102,8 +107,13 @@
 <script type="text/javascript" src="{{asset('files/bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('files/bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('files/bower_components/jquery-i18next/js/jquery-i18next.min.js')}}"></script>
-<!-- Custom js -->
+
+<!-- Select 2 js -->
+<script type="text/javascript" src="{{asset('files/bower_components/select2/js/select2.full.min.js')}}"></script>
 <script src="{{asset('files/assets/pages/data-table/js/data-table-custom.js')}}"></script>
+<script type="text/javascript" src="{{asset('files/assets/pages/advance-elements/select2-custom.js')}}"></script>
+<!-- Custom js -->
+<script type="text/javascript" src="..\files\assets\pages\product-list\product-list.js"></script>
 
 <script src="{{asset('files/assets/js/pcoded.min.js')}}"></script>
 <script src="{{asset('files/assets/js/vartical-layout.min.js')}}"></script>
