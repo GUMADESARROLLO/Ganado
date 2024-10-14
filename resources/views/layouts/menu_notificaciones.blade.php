@@ -1,4 +1,4 @@
-<nav class="navbar header-navbar pcoded-header">
+
     <div class="navbar-wrapper">
 
         <div class="navbar-logo">
@@ -81,4 +81,3 @@
             </ul>
         </div>
     </div>
-</nav>

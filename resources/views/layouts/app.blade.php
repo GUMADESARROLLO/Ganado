@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Adminty - Premium Admin Template by Colorlib </title>
+    <title>{{ config('app.name', 'Laravel') }} |  Optimización del Ciclo de Producción </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,9 +36,9 @@
 <div id="pcoded" class="pcoded">
     <div class="pcoded-overlay-box"></div>
     <div class="pcoded-container navbar-wrapper">
-
+        <nav class="navbar header-navbar pcoded-header" header-theme="theme6">
         @include('layouts.menu_notificaciones')
-
+        </nav>
 
         <div class="pcoded-main-container">
             <div class="pcoded-wrapper">

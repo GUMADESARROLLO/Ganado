@@ -36,23 +36,26 @@
             </li>
             <li class="pcoded-hasmenu">
                 <a href="javascript:void(0)">
-                    <span class="pcoded-micon"><i class="feather icon-layers"></i></span>
-                    <span class="pcoded-mtext">Modulo 03</span>
+                    <span class="pcoded-micon"><i class="feather icon-settings"></i></span>
+                    <span class="pcoded-mtext">Catalogos</span>
                 </a>
                 <ul class="pcoded-submenu">
+                    
+                    <li class="">
+                        <a href="Usuarios">
+                            <span class="pcoded-mtext">Fincas</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="Usuarios">
+                            <span class="pcoded-mtext">Lotes</span>
+                        </a>
+                    </li>
                     <li class="">
                         <a href="Usuarios">
                             <span class="pcoded-mtext">Usuarios</span>
                         </a>
                     </li>
-                    @for ($i = 1; $i <= 3; $i++)
-                        <li class="">
-                            <a href="home">
-                                <span class="pcoded-mtext">Sub Mod Opcion 0{{ $i }} </span>
-                            </a>
-                        </li>
-                    @endfor
-
                 </ul>
             </li>
         </ul>
