@@ -32,3 +32,7 @@ Route::get('/Lotes', 'LoteController@getLotes')->name('Lotes');
 
 Route::get('/Bovinos', 'BovinoController@getBovinos')->name('Bovinos');
 Route::get('/BovinosDetalles', 'BovinoController@getDetalles')->name('BovinosDetalles');
+
+
+
+Route::get('/subasta', 'SubastaController@ViewHome')->name('subasta');
