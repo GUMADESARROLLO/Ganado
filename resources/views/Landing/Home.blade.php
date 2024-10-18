@@ -30,21 +30,63 @@
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
-       @include('Landing.nav')
-
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-            <div class="container py-5">
-                <div class="row justify-content-center py-5">
-                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white mb-3 animated slideInDown">Lorem ipsum, dolor sit amet, consectetur adipisicing elit</h1>
-                        <p class="fs-4 text-white mb-4 animated slideInDown">Lorem ipsum dolor sit amet consectetur </p>                       
-                        <p class="fs-4 text-white mb-4 animated slideInDown">TEL 0000-0000</p>                       
+        @include('Landing.nav')
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                        <div class="container py-5">
+                            <div class="row justify-content-center py-5">
+                                <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                                    <h1 class="display-3 text-white mb-3 animated slideInDown">Lorem ipsum, dolor sit amet, consectetur adipisicing elit 01</h1>
+                                    <p class="fs-4 text-white mb-4 animated slideInDown">Lorem ipsum dolor sit amet consectetur </p>                       
+                                    <p class="fs-4 text-white mb-4 animated slideInDown">TEL 0000-0000</p>                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                        <div class="container py-5">
+                            <div class="row justify-content-center py-5">
+                                <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                                    <h1 class="display-3 text-white mb-3 animated slideInDown">Lorem ipsum, dolor sit amet, consectetur adipisicing elit 02</h1>
+                                    <p class="fs-4 text-white mb-4 animated slideInDown">Lorem ipsum dolor sit amet consectetur </p>                       
+                                    <p class="fs-4 text-white mb-4 animated slideInDown">TEL 0000-0000</p>                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                        <div class="container py-5">
+                            <div class="row justify-content-center py-5">
+                                <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                                    <h1 class="display-3 text-white mb-3 animated slideInDown">Lorem ipsum, dolor sit amet, consectetur adipisicing elit 03</h1>
+                                    <p class="fs-4 text-white mb-4 animated slideInDown">Lorem ipsum dolor sit amet consectetur </p>                       
+                                    <p class="fs-4 text-white mb-4 animated slideInDown">TEL 0000-0000</p>                       
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+             
     </div>
     <!-- Navbar & Hero End -->
+
+
 
 
     <!-- About Start -->
