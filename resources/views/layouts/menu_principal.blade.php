@@ -52,7 +52,7 @@
 
             <li class="">
                 <a href="{{route('logout')}}">
-                    <span class="pcoded-micon"><i class="feather icon-award"></i></span>
+                    <span class="pcoded-micon"><i class="feather icon-log-out"></i></span>
                     <span class="pcoded-mtext">Salir</span>
                 </a>
             </li>
