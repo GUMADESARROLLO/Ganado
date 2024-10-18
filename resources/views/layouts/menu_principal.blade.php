@@ -51,9 +51,9 @@
             </li>
 
             <li class="">
-                <a href="subasta">
+                <a href="{{route('logout')}}">
                     <span class="pcoded-micon"><i class="feather icon-award"></i></span>
-                    <span class="pcoded-mtext">Subastas Online</span>
+                    <span class="pcoded-mtext">Salir</span>
                 </a>
             </li>
         </ul>
