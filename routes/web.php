@@ -36,3 +36,5 @@ Route::get('/BovinosDetalles', 'BovinoController@getDetalles')->name('BovinosDet
 
 
 Route::get('/subasta', 'SubastaController@ViewHome')->name('subasta');
+Route::get('/subasta-detalles', 'SubastaController@Detalles')->name('subasta-detalles');
+Route::get('/subasta-lista', 'SubastaController@Listas')->name('subasta-lista');

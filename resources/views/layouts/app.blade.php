@@ -38,6 +38,10 @@
     <!-- Select 2 css -->
     <link rel="stylesheet" href="{{asset('files/bower_components/select2/css/select2.min.css')}}">
 
+    <!-- slick css -->
+    <link rel="stylesheet" type="text/css" href="{{asset('files/bower_components/slick-carousel/css/slick.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('files/bower_components/slick-carousel/css/slick-theme.css')}}">
+
     
 </head>
 
@@ -125,6 +129,20 @@
 <script src="{{asset('files/assets/js/vartical-layout.min.js')}}"></script>
 <script src="{{asset('files/assets/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('files/assets/js/script.js')}}"></script>
+
+<!-- jquery slimscroll js -->
+<script type="text/javascript" src="{{asset('files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js')}}"></script>
+<!-- modernizr js -->
+<script type="text/javascript" src="{{asset('files/bower_components/modernizr/js/modernizr.js')}}"></script>
+<script type="text/javascript" src="{{asset('files/bower_components/modernizr/js/css-scrollbars.js')}}"></script>
+
+<!-- barrating js -->
+<script type="text/javascript" src="{{asset('files/bower_components/jquery-bar-rating/js/jquery.barrating.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('files/assets/pages/rating/rating.js')}}"></script>
+<!-- slick js -->
+<script type="text/javascript" src="{{asset('files/bower_components/slick-carousel/js/slick.min.js')}}"></script>
+<!-- product detail js -->
+<script type="text/javascript" src="{{asset('files/assets/pages/product-detail/product-detail.js')}}"></script>
 
 </body>
 

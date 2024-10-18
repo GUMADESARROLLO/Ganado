@@ -12,15 +12,31 @@ class SubastaController extends Controller
     {
 
         $Headers = array(
-            'Header'    => 'Subasta del LOTE: 001',
+            'Header'    => 'LOTES DISPONIBLE AL: 00/00/0000',
             'subHeader' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates!',
             'Path'      => array('Subasta'),
         );
 
-        $video = Subasta::YoutubeID('https://www.youtube.com/watch?v=ujbGqWsRLeA');
-        
+        return view('Subasta.home', compact('Headers'));
+    }
+    function Detalles() 
+    {
+        $Headers = array(
+            'Header'    => 'LOTES : 0000',
+            'subHeader' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates!',
+            'Path'      => array('Subasta', 'Detalles'),
+        );
 
+        return view('Subasta.Detalles', compact('Headers'));
+    }
+    function Listas() 
+    {
+        $Headers = array(
+            'Header'    => 'Listas de Subastas',
+            'subHeader' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates!',
+            'Path'      => array('Subasta', 'Listas'),
+        );
 
-        return view('Subasta.home', compact('Headers','video'));
+        return view('Subasta.Table', compact('Headers'));
     }
 }
