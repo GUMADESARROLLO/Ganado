@@ -16,7 +16,6 @@ class SubastaController extends Controller
             'subHeader' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates!',
             'Path'      => array('Subasta'),
         );
-
         return view('Subasta.home', compact('Headers'));
     }
     function Detalles() 

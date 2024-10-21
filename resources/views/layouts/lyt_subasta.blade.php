@@ -59,6 +59,9 @@
                         <!-- Main-body start -->
                         <div class="main-body">
                             <div class="page-wrapper">
+                                <div class="page-header">
+                                    @include('layouts.headers')
+                                </div>
                                 <!-- Page-body start -->
                                 <div class="page-body">
                                     @yield('content')

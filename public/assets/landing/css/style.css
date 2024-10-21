@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #86B817;
+    --primary: #18563E;
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
@@ -231,6 +231,7 @@
 
 .service-item:hover {
     background: var(--primary);
+    //background: #009943
 }
 
 .service-item * {

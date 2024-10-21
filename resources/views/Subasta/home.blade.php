@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.lyt_subasta')
 @section('content')
 <div class="row">
     @for($i = 0; $i < 7; $i++)

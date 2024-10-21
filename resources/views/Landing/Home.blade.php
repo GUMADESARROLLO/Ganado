@@ -277,7 +277,7 @@
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Atencion</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">Solicita tu cr&eacute;dito con nosotros</h3>
+                            <h3 class="mb-0">Lorem Ipsum, Lorem</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -285,7 +285,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Puedes utilizar el crédito para invertir en tecnología, capacitación de empleados u otras mejoras que aumenten la eficiencia y la competitividad de tu empresa.</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 
                         </div>
                     </div>
@@ -296,12 +296,12 @@
                             <img class="img-fluid" src="{{asset('assets/landing/img/placeholder.jpg')}}" alt="">
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Directo a tu negocio</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>Plazos</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Atencion</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Lorem Ipsum</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>Lorem</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Lorem</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">Estamos en constante capacitación</h3>
+                            <h3 class="mb-0">Lorem Ipsum, Lorem</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -309,7 +309,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Estamos en costante capacitación para asegurar, brindar la mejor Atencion a nuestros clientes</p>                            
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>                            
                         </div>
                     </div>
                 </div>
@@ -319,12 +319,12 @@
                             <img class="img-fluid" src="{{asset('assets/landing/img/placeholder.jpg')}}" alt="">
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Directo a tu negocio</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>Plazos</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Atencion</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Lorem Ipsum</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>Lorem</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Lorem</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">El monto de dinero que desees</h3>
+                            <h3 class="mb-0">Lorem Ipsum, Lorem</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -332,7 +332,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Solicita tu cr&eacute;dito y obten la cantidad del prestamo que se ajuste a tus necesidades</p>                            
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>                            
                         </div>
                     </div>
                 </div>
