@@ -2,7 +2,7 @@
     <div class="pcoded-inner-navbar main-menu">
         <div class="pcoded-navigatio-lavel">Home</div>
         <ul class="pcoded-item pcoded-left-item">
-             <li class="">
+             <li class="{{ (request()->is('home')) ? 'active' : '' }}">
                 <a href="{{route('home')}}">
                     <span class="pcoded-micon"><i class="feather icon-home"></i></span>
                     <span class="pcoded-mtext">Inicio</span>
@@ -20,8 +20,7 @@
                     <span class="pcoded-micon"><i class="feather icon-settings"></i></span>
                     <span class="pcoded-mtext">Catalogos</span>
                 </a>
-                <ul class="pcoded-submenu">
-                    
+                <ul class="pcoded-submenu">                    
                     <li class="{{ (request()->is('Fincas')) ? 'active' : '' }}">
                         <a href="{{route('Fincas')}}">
                             <span class="pcoded-mtext">Fincas</span>

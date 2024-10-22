@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('content')
+
 <div class="row">
     <div class="col-sm-12">   
-        <!-- Language - Comma Decimal Place table start -->
         <div class="card">
             <div class="card-header">
-                <h5>Language - Comma Decimal Place</h5>
+                <h5>Titulo - de la tabla de Usuarios</h5>
                 <span>A dot (.) is used to mark the decimal place in Javascript, however, many parts of the world use a comma (,) and other characters such as the Unicode decimal separator (⎖) or a dash (-) are often used to show the decimal place in a displayed number.</span>
 
             </div>
