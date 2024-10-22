@@ -42,4 +42,6 @@ Route::get('/BovinosDetalles', 'BovinoController@getDetalles')->name('BovinosDet
 Route::get('/subasta', 'SubastaController@ViewHome')->name('subasta');
 Route::get('/subasta-detalles', 'SubastaController@Detalles')->name('subasta-detalles');
 Route::get('/subasta-lista', 'SubastaController@Listas')->name('subasta-lista');
- 
+Route::get('/subasta-lista/agregar', 'SubastaController@Agregar')->name('Listas-Agregar');
+Route::get('/subasta-lista/editar', 'SubastaController@Agregar')->name('Listas-Editar');
+Route::get('/subasta-lista/eliminar', 'SubastaController@Agregar')->name('Listas-Eliminar');

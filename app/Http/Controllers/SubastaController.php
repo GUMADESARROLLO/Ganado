@@ -38,4 +38,13 @@ class SubastaController extends Controller
 
         return view('Subasta.Table', compact('Headers'));
     }
+    function Agregar()
+    {
+        $Headers = array(
+            'Header'    => 'Crear Subasta',
+            'subHeader' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptates!',
+            'Path'      => array('Subasta', 'Listas', 'Agregar'),
+        );
+        return view('Subasta.Agregar', compact('Headers'));
+    }
 }

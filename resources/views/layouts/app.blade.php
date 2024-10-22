@@ -35,12 +35,16 @@
     <link rel="stylesheet" type="text/css" href="{{asset('files/assets/css/style.css')}}">  
     <link rel="stylesheet" type="text/css" href="{{asset('files/assets/css/jquery.mCustomScrollbar.css')}}">
     
-    <!-- Select 2 css -->
-    <link rel="stylesheet" href="{{asset('files/bower_components/select2/css/select2.min.css')}}">
 
     <!-- slick css -->
     <link rel="stylesheet" type="text/css" href="{{asset('files/bower_components/slick-carousel/css/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('files/bower_components/slick-carousel/css/slick-theme.css')}}">
+    <!-- Date-time picker css -->
+    <link rel="stylesheet" type="text/css" href="{{asset('files/assets/pages/advance-elements/css/bootstrap-datetimepicker.css')}}">
+
+    <!-- jquery file upload Frame work -->
+    <link href="{{asset('files/assets/pages/jquery.filer/css/jquery.filer.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{asset('files/assets/pages/jquery.filer/css/themes/jquery.filer-dragdropbox-theme.css')}}" type="text/css" rel="stylesheet">
 
     
 </head>
@@ -118,10 +122,12 @@
 <script type="text/javascript" src="{{asset('files/bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('files/bower_components/jquery-i18next/js/jquery-i18next.min.js')}}"></script>
 
-<!-- Select 2 js -->
-<script type="text/javascript" src="{{asset('files/bower_components/select2/js/select2.full.min.js')}}"></script>
-<script src="{{asset('files/assets/pages/data-table/js/data-table-custom.js')}}"></script>
-<script type="text/javascript" src="{{asset('files/assets/pages/advance-elements/select2-custom.js')}}"></script>
+    <!-- Bootstrap date-time-picker js -->
+    <script type="text/javascript" src="..\files\assets\pages\advance-elements\moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="..\files\bower_components\bootstrap-datepicker\js\bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="..\files\assets\pages\advance-elements\bootstrap-datetimepicker.min.js"></script>
+
+
 <!-- Custom js -->
 <script type="text/javascript" src="..\files\assets\pages\product-list\product-list.js"></script>
 
@@ -143,6 +149,13 @@
 <script type="text/javascript" src="{{asset('files/bower_components/slick-carousel/js/slick.min.js')}}"></script>
 <!-- product detail js -->
 <script type="text/javascript" src="{{asset('files/assets/pages/product-detail/product-detail.js')}}"></script>
+
+<!-- jquery file upload js -->
+<script src="{{asset('files/assets/pages/jquery.filer/js/jquery.filer.min.js')}}"></script>
+<script src="{{asset('files/assets/pages/filer/custom-filer.js')}}" type="text/javascript"></script>
+
+<!-- Metodos Js -->
+@yield('MetodosJs')
 
 </body>
 

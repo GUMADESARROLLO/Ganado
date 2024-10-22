@@ -3,19 +3,19 @@
         <div class="pcoded-navigatio-lavel">Home</div>
         <ul class="pcoded-item pcoded-left-item">
              <li class="">
-                <a href="home">
+                <a href="{{route('home')}}">
                     <span class="pcoded-micon"><i class="feather icon-home"></i></span>
                     <span class="pcoded-mtext">Inicio</span>
                 </a>
             </li>
             <li class="">
-                <a href="subasta">
+                <a href="{{route('subasta')}}">
                     <span class="pcoded-micon"><i class="feather icon-award"></i></span>
                     <span class="pcoded-mtext">Subastas Online</span>
                 </a>
             </li>
            
-            <li class="pcoded-hasmenu {{ (request()->is('Fincas') || request()->is('Lotes') || request()->is('Bovinos') || request()->is('Usuarios') || request()->is('subasta-lista') ) ? 'active pcoded-trigger' : '' }} ">
+            <li class="pcoded-hasmenu {{ (request()->is('Fincas') || request()->is('Lotes') || request()->is('Bovinos') || request()->is('Usuarios') || request()->is('subasta-lista')|| request()->is('subasta-lista/agregar') ) ? 'active pcoded-trigger' : '' }} ">
                 <a href="javascript:void(0)">
                     <span class="pcoded-micon"><i class="feather icon-settings"></i></span>
                     <span class="pcoded-mtext">Catalogos</span>
@@ -23,27 +23,27 @@
                 <ul class="pcoded-submenu">
                     
                     <li class="{{ (request()->is('Fincas')) ? 'active' : '' }}">
-                        <a href="Fincas">
+                        <a href="{{route('Fincas')}}">
                             <span class="pcoded-mtext">Fincas</span>
                         </a>
                     </li>
                     <li class="{{ (request()->is('Lotes')) ? 'active' : '' }}">
-                        <a href="Lotes">
+                        <a href="{{route('Lotes')}}">
                             <span class="pcoded-mtext">Lotes</span>
                         </a>
                     </li>
                     <li class="{{ (request()->is('Bovinos')) ? 'active' : '' }}">
-                        <a href="Bovinos">
+                        <a href="{{route('Bovinos')}}">
                             <span class="pcoded-mtext">Bovinos</span>
                         </a>
                     </li>
-                    <li class="{{ (request()->is('subasta-lista')) ? 'active' : '' }}">
-                        <a href="subasta-lista">
+                    <li class="{{ (request()->is('subasta-lista') || request()->is('subasta-lista/agregar')) ? 'active' : '' }}">
+                        <a href="{{route('subasta-lista')}}">
                             <span class="pcoded-mtext">Subastas</span>
                         </a>
                     </li>
                     <li class="{{ (request()->is('Usuarios')) ? 'active' : '' }}">
-                        <a href="Usuarios">
+                        <a href="{{route('Usuarios')}}">
                             <span class="pcoded-mtext">Usuarios</span>
                         </a>
                     </li>
