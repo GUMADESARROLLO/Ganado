@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-    <a href="" class="navbar-brand p-0">
+    <a href="{{route('inicio')}}" class="navbar-brand p-0">
         <h1 class="text-primary m-0"><img src="{{asset('files/assets/images/auth/Logo-small-bottom.png')}}" width="32"/> GANADO</h1>
         <!-- <img src="img/logo.png" alt="Logo"> -->
     </a>
