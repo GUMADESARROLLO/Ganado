@@ -8,11 +8,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">Menu</a>
-            <a href="service.html" class="nav-item nav-link">Menu</a>                                        
-            <a href="contact.html" class="nav-item nav-link">Menu</a>
+            <a href="{{route('inicio')}}" class="nav-item nav-link {{ (url()->current() === config('app.url') ) ? 'active' : '' }}">Inicio</a>
+            <a href="{{route('contact')}}" class="nav-item nav-link {{ (request()->is('contact')) ? 'active' : '' }}">Contactanos</a>
         </div>
-        <a href="login" class="btn btn-primary rounded-pill py-2 px-4">Subastas</a>
+        <!-- <a href="login" class="btn btn-primary rounded-pill py-2 px-4">Subastas</a> -->
     </div>
 </nav>

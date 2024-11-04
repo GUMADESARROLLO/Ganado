@@ -15,7 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('Landing.Home');
-});
+})->name('inicio');
+
+Route::get('contact', function () {
+    return view('Landing.Contact');
+})->name('contact');
+
+Route::post('savecontact', 'LandingController@savecontact')->name('savecontact');
 
 Route::get('/login', function () {
     return view('auth.login');
