@@ -137,7 +137,8 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" value="{{ old('name') }}">
+
                                     <label for="name">Tu nombre</label>                                   
                                 </div>
                                 @error('name')
@@ -146,7 +147,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="{{ old('email') }}">
                                     <label for="email">Tu Correo</label>
                                 </div>
                                 @error('email')
@@ -155,7 +156,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto" value="{{ old('subject') }}">
                                     <label for="subject">Asunto</label>
                                 </div>
                                 @error('subject')
@@ -164,7 +165,8 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px"></textarea>
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px">
+                                    </textarea>
                                     <label for="message">Mensaje</label>
                                 </div>
                                 @error('message')
