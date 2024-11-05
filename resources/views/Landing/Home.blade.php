@@ -13,7 +13,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                    <div class="container-fluid bg-primary py-5 mb-5 hero-header-slide-01">
                         <div class="container py-5">
                             <div class="row justify-content-center py-5">
                                 <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                    <div class="container-fluid bg-primary py-5 mb-5 hero-header-slide-02">
                         <div class="container py-5">
                             <div class="row justify-content-center py-5">
                                 <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                    <div class="container-fluid bg-primary py-5 mb-5 hero-header-slide-03">
                         <div class="container py-5">
                             <div class="row justify-content-center py-5">
                                 <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">

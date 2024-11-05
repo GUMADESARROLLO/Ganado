@@ -9,7 +9,7 @@
     <div class="container-fluid position-relative p-0">
         @include('Landing.nav')
 
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container-fluid bg-primary py-5 mb-5 hero-header-slide-01">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">

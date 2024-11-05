@@ -3,13 +3,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FINCAGRO</title>
+    <title>FINCAGRO | Lorem Ipsum</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="{{asset('files/assets/images/favicon.ico')}}" rel="icon">
+    <link href="{{asset('files/assets/images/favicon/favicon.ico')}}" rel="icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('files/assets/images/favicon/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('files/assets/images/favicon/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('files/assets/images/favicon/favicon-16x16.png')}}">
+    <link rel="manifest" href="{{asset('files/assets/images/favicon/site.webmanifest')}}">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
