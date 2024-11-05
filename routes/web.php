@@ -21,6 +21,14 @@ Route::get('contact', function () {
     return view('Landing.Contact');
 })->name('contact');
 
+Route::get('nosotros', function () {
+    return view('Landing.About');
+})->name('nosotros');
+
+Route::get('galeria', function () {
+    return view('Landing.Gallery');
+})->name('galeria');
+
 Route::post('savecontact', 'LandingController@savecontact')->name('savecontact');
 
 Route::get('/login', function () {

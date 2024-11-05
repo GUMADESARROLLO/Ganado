@@ -4,28 +4,7 @@
 @section('content')
 
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Lorem, ipsum</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>(505) 000-000</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@ganado.com</small>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center text-lg-end">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
+    @include('Landing.Topbar')
 
 
     <!-- Navbar & Hero Start -->
@@ -86,9 +65,6 @@
     </div>
     <!-- Navbar & Hero End -->
 
-
-
-
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -100,7 +76,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">Acerca de Nosotros</h6>
-                    <h1 class="mb-4">Bienvenido a <span class="text-primary">Subastas</span></h1>
+                    <h1 class="mb-4">Lorem <span class="text-primary">Ipsum</span></h1>
                     <p class="mb-4">Lorem Ipsum dolor sit amet consectetur.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem at accusantium quisquam qui corporis maiores dicta eius unde consequatur id ipsum velit, iusto libero odit voluptates dolorem provident reprehenderit deleniti.</p>
                     <div class="row gy-2 gx-4 mb-4">
@@ -272,7 +248,7 @@
                             <img class="img-fluid" src="{{asset('assets/landing/img/placeholder.jpg')}}" alt="">
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Directo a tu negocio</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Direccion</small>
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>Plazos</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Atencion</small>
                         </div>

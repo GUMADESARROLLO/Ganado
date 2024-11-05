@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GANADO</title>
+    <title>FINCAGRO</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{{asset('assets/landing/css/style.css') }}" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -60,6 +61,13 @@
 
     <!-- Template Javascript -->
     <script src="{{asset('assets/landing/js/main.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showImage(element) {
+            const modalImage = document.getElementById("modalImage");
+            modalImage.src = element.src;
+        }
+    </script>
 </body>
 
 </html>

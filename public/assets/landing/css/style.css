@@ -442,3 +442,12 @@
     padding-right: 0;
     border-right: none;
 }
+
+.gallery-img {
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease; /* Efecto suave al pasar el cursor */
+}
+.gallery-img:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el cursor */
+}
